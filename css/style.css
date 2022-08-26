@@ -198,12 +198,10 @@ main {
         position: absolute;
         right: 80px;
         bottom: -25px;
-        /* transform: translateY(45%); */
     }
 
     .share-links {
         position: relative;
-        /* bottom: -40px; */
         right: 37px;
         margin: 0;
         padding: 0;
