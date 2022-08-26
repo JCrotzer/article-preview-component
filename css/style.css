@@ -126,7 +126,7 @@ main {
 .arrow-btn {
     position: absolute;
     right: 50px;
-    bottom: 30px;
+    bottom: 35px;
     transform: translateY(45%);
 }
 
