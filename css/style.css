@@ -82,7 +82,7 @@ main {
 
 .share-links {
     position:absolute;
-    bottom: 80px;
+    bottom: 70px;
 }    
     
 .icons {
@@ -106,15 +106,15 @@ main {
 }
 
 .share-btn {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50px;
     border: transparent;
     background-color:  hsl(210, 46%, 95%);
     transition: all 0.2s linear;
     cursor: pointer;
     text-align: center;
-    position: fixed;
+    position: absolute;
     z-index: 1;
 }
 
@@ -124,9 +124,9 @@ main {
 }
 
 .arrow-btn {
-    position: fixed;
-    right: 140px;
-    bottom: 110px;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
     transform: translateY(45%);
 }
 
@@ -147,8 +147,8 @@ main {
     }
 
     main {
-        max-width: 900px;
-        height: 100%;
+        max-width: 800px;
+        height: 250px;
         border-radius: 10px;
     }
 
@@ -158,13 +158,17 @@ main {
     }
 
     .header img {
-        width: 350px;
+        width: 325px;
         height: 250px;
         border-radius: 10px 0 0 10px;
     }
 
     .article {
         width: 420px;
+    }
+
+    .profile-flex {
+        position: relative;
     }
 
     .content {
@@ -190,16 +194,20 @@ main {
         margin-right: 200px;
     }
 
+    /* .share-btn {
+        position: absolute;
+    } */
+
     .arrow-btn {
-        position: fixed;
-        right: 140px;
-        bottom: 235px;
+        position: absolute;
+        right: 380px;
+        bottom: 165px;
         transform: translateY(45%);
     }
 
     .share-links {
-        position:absolute;
-        bottom: 280px;
+        position: absolute;
+        /* bottom: -40px; */
         right: 37px;
         margin: 0;
         padding: 0;
@@ -211,9 +219,13 @@ main {
     }
 
     .icons {
+        position: absolute;
         width: 250px;
         height: 40px; 
+        right: 275px;
+        bottom: 205px;
         border-radius: 10px;
+        text-align: center;
     }
 
     .arrow-down{

@@ -7,5 +7,3 @@ function shareSocialMedia() {
 }
 
 btn.addEventListener('click', shareSocialMedia);
-
-
